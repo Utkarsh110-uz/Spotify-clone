@@ -127,7 +127,7 @@ async function main() {
     display_albums();
 
     // Get all the songs
-    songs = await getsongs("Songs/Calm_music");
+    songs = await getsongs("Songs/Jennie_songs");
     playmusic(songs[0], true);
 
     // Attach an event listner to previous, next and play buttons
