@@ -1,0 +1,64 @@
+{
+  "albums": [
+    {
+      "folder": "English_songs",
+      "songs": [
+        "1985.mp3",
+        "All The Stars.mp3",
+        "Apocalycse.mp3",
+        "Attention.mp3",
+        "Beggin.mp3",
+        "Blinding Lights.mp3",
+        "Bloodline.mp3"
+      ]
+    },
+    {
+      "folder": "Gym_music",
+      "songs": [
+        "Bloody marry.mp3",
+        "envy.mp3",
+        "Farben.mp3",
+        "Gangstas paradise.mp3",
+        "gta 4 theme.mp3",
+        "Happy nation.mp3",
+        "Human.mp3"
+      ]
+    }
+    {
+      "folder": "Hindi_songs",
+      "songs": [
+        "Dholida.mp3",
+        "Dil ka jo haal hai.mp3",
+        "For a reason.mp3",
+        "Haseen.mp3",
+        "Jalebi baby.mp3",
+        "Jugraafiya.mp3",
+        "Mere kaan m hai jo bali.mp3"
+      ]
+    }
+    {
+      "folder": "Jennie_songs",
+      "songs": [
+        "Dracula.mp3",
+        "ExtraL.mp3",
+        "Handlebars.mp3",
+        "Like JENNIE.mp3",
+        "Love Hangover.mp3",
+        "Mantra.mp3",
+        "One of the girls.mp3",
+        "Seoul City.mp3"
+      ]
+    }
+    {
+      "folder": "Lana_Del_Ray",
+      "songs": [
+        "Brooklyn Baby.mp3",
+        "Cinnamon Girl.mp3",
+        "Diet Mountain Dew.mp3",
+        "HundreadDollar Bill.mp3",
+        "Say Yes To Heaven.mp3",
+        "Young And Beautiful.mp3"
+      ]
+    }
+  ]
+}
