@@ -79,8 +79,7 @@ async function display_albums() {
 
     let array = Array.from(anchors)
     for (let index = 0; index < array.length; index++) {
-        let e = array[index];
-
+        const e = array[index];
         let url = new URL(e.href);
         let parts = url.pathname.split("/").filter(Boolean);
 
