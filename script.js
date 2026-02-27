@@ -20,7 +20,7 @@ async function getsongs(folder) {
     current_folder = folder;
 
     // ✅ Read song list from info.json instead of directory listing
-    let response = await fetch(`/${folder}/info.json`);
+    let response = await fetch(`${folder}/info.json`);
     let info = await response.json();
 
     songs = info.songs; // array of filenames like ["song1.mp3", "song2.mp3"]
@@ -54,7 +54,7 @@ async function getsongs(folder) {
 };
 
 const playmusic = (track, pause = false) => {
-    currentsong.src = `/${current_folder}/` + track;
+    currentsong.src = `${current_folder}/` + track;
     if (!pause) {
         currentsong.play();
         play.src = "Assets/pause.svg";
@@ -65,14 +65,14 @@ const playmusic = (track, pause = false) => {
 
 async function display_albums() {
     // ✅ Read folder list from songs.json instead of directory listing
-    let res = await fetch("/songs.json");
+    let res = await fetch("songs.json");
     let data = await res.json();
 
     let cardContainer = document.querySelector(".cardcontainer");
 
     for (const folder of data.folders) {
         try {
-            let infoRes = await fetch(`/Songs/${folder}/info.json`);
+            let infoRes = await fetch(`Songs/${folder}/info.json`);
             if (!infoRes.ok) continue;
 
             let info = await infoRes.json();
@@ -83,7 +83,7 @@ async function display_albums() {
                         <img src="Assets/play-button.svg" alt="play-button">
                     </button>
                 </div>
-                <img src="/Songs/${folder}/cover.jpeg" alt="${info.title}">
+                <img src="Songs/${folder}/cover.jpeg" alt="${info.title}">
                 <h2>${info.title}</h2>
                 <p>${info.description}</p>
             </div>`;
