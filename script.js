@@ -34,7 +34,7 @@ async function getsongs(folder) {
             <img src="Assets/music.svg" alt="music-svg">
             <div class="info">
                 <div>${song.replaceAll("%20", " ").replace(".mp3", "")}</div>
-                <div>Song Artist</div>
+                <div>Artist Name</div>
             </div>
             <div class="playnow">
                 <span>Play now</span>
