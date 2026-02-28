@@ -20,6 +20,10 @@ body {
     flex-direction: column;
 }
 
+.main h1 {
+    font-size: 48px;
+}
+
 .upper-head{
     text-align: center;
 }
@@ -27,15 +31,42 @@ body {
 .login-details{
     display: flex;
     flex-direction: column;
-    border: 2px solid yellow;
-    padding: 10px 80px;
-    text-align: start;
+    gap: 12px;
 }
 
-.main h1 {
-    font-size: 48px;
+#email{
+    width: 310px;
+    height: 35px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: black;
+    padding-left: 10px;
+    font-size: 16px;
 }
 
-.btn {
+#email:hover{
+    border: 1px solid white;
+}
+
+#email:focus{
+    outline: 1px solid white;
+}
+
+.btn{
+    background-color: #1fd760;
+    border: none;
+    outline: none;
     color: black;
+    border-radius: 20px;
+    padding: 8px 32px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* .btn:hover{
+    transform: ;
+} */
+
+.nothing{
+    margin: 15px 0px;
 }
