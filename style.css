@@ -146,6 +146,11 @@ body{
     width: 109px;
 }
 
+.login-btn a{
+    text-decoration: none;
+    color: black;
+}
+
 .play{
     position: fixed;
     bottom: 20px;
